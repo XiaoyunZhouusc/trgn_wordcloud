@@ -1,0 +1,3 @@
+wget https://en.wikipedia.org/wiki/Translational_bioinformatics
+wget https://en.wikipedia.org/wiki/Genomics
+
