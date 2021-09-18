@@ -13,13 +13,19 @@
 ## Dependencies 
 * First, we need the tool to create us pictures. Please execute the following lines:
 > cd ~/bin 
+> 
 > git clone https://github.com/amueller/word_cloud.git
+> 
 
 * Next, we need another tool to parse text from your chosen websites. Please execute the following lines as well:
 > cd ~/bin
+> 
 > git clone https://github.com/aaronsw/html2text
+> 
 > cd html2text
+> 
 > mv html2text.py ~/bin/.
+> 
 
 * Also, please make sure *wget* is installed
 
@@ -28,4 +34,4 @@
 ## Contact
 #### In case if you need techinical support, please contact me at: abc.def.ghi@jkl.com, or call me at (123)456-789.
 
-#Enjoy!
+# Enjoy!
