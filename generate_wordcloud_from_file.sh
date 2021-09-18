@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd /home/xzhou314/public_html
+
 if [ -d "current_pages" ] 
 then
     rm -rf current_pages
