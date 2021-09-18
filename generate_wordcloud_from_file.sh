@@ -17,11 +17,11 @@ do
     if [ $isUrl = 1 ]
     then
         wget $url -O "current_pages/file${index}.html"
-        html2text.py "current_pages/file${index}.html" >> my_current.txt
+        /home/xzhou314/bin/html2text.py "current_pages/file${index}.html" >> my_current.txt
         index=$((index + 1))
     fi
    
     isUrl=$((! $isUrl))
 done
 
-wordcloud_cli --text my_current.txt --imagefile myimage.png
+python -m wordcloud  --text my_current.txt --imagefile myimage.png
