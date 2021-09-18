@@ -1,3 +1,3 @@
-wget https://en.wikipedia.org/wiki/Translational_bioinformatics
-wget https://en.wikipedia.org/wiki/Genomics
+wget https://www.bbc.com/news
+wget https://www.nytimes.com
 
